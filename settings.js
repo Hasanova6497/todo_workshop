@@ -229,7 +229,14 @@ module.exports = {
      * When httpStaticRoot is set differently to httpAdminRoot, there is no need
      * to move httpAdminRoot
      */
-    httpStatic: process.cwd() +  '/www', //single static source
+    // The following property can be used to enable static content serving
+// from a directory on the local filesystem. This allows serving
+// simple static content such as images, css and js files.
+// Replace 'absolute/path/to/static/dir' with your real path.
+
+httpStatic: 'C:/Users/nargi/OneDrive/Resimler/Masaüstü/Staj/todo/TODO/www',
+
+    //httpStatic: process.cwd() +  '/www', //single static source
     /**
      *  OR multiple static sources can be created using an array of objects...
      *  Each object can also contain an options object for further configuration.

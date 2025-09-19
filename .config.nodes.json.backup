@@ -426,5 +426,104 @@
                 "file": "C:\\Users\\nargi\\OneDrive\\Resimler\\Masaüstü\\Staj\\todo\\todo\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
             }
         }
+    },
+    "@buglss/node-red-crontinject": {
+        "name": "@buglss/node-red-crontinject",
+        "version": "3.0.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "crontinject": {
+                "name": "crontinject",
+                "types": [
+                    "crontinject"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@buglss/node-red-crontinject",
+                "file": "C:\\Users\\nargi\\OneDrive\\Resimler\\Masaüstü\\Staj\\todo\\todo\\node_modules\\@buglss\\node-red-crontinject\\nodes\\crontinject.js"
+            }
+        }
+    },
+    "node-red-node-email": {
+        "name": "node-red-node-email",
+        "version": "3.1.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "email": {
+                "name": "email",
+                "types": [
+                    "e-mail",
+                    "e-mail in",
+                    "e-mail mta"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-node-email",
+                "file": "C:\\Users\\nargi\\OneDrive\\Resimler\\Masaüstü\\Staj\\todo\\todo\\node_modules\\node-red-node-email\\61-email.js"
+            }
+        }
+    },
+    "node-red-contrib-bcrypt": {
+        "name": "node-red-contrib-bcrypt",
+        "version": "0.1.6",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "bcrypt": {
+                "name": "bcrypt",
+                "types": [
+                    "bcrypt"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-bcrypt",
+                "file": "C:\\Users\\nargi\\OneDrive\\Resimler\\Masaüstü\\Staj\\todo\\todo\\node_modules\\node-red-contrib-bcrypt\\bcrypt\\bcrypt.js"
+            }
+        }
+    },
+    "node-red-contrib-jwt": {
+        "name": "node-red-contrib-jwt",
+        "version": "0.1.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "jwt": {
+                "name": "jwt",
+                "types": [
+                    "jwt sign",
+                    "jwt verify"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-jwt",
+                "file": "C:\\Users\\nargi\\OneDrive\\Resimler\\Masaüstü\\Staj\\todo\\todo\\node_modules\\node-red-contrib-jwt\\jwt.js"
+            }
+        }
+    },
+    "node-red-contrib-mongodb4": {
+        "name": "node-red-contrib-mongodb4",
+        "version": "3.1.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "mongodb4": {
+                "name": "mongodb4",
+                "types": [
+                    "mongodb4-client",
+                    "mongodb4"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-mongodb4",
+                "file": "C:\\Users\\nargi\\OneDrive\\Resimler\\Masaüstü\\Staj\\todo\\todo\\node_modules\\node-red-contrib-mongodb4\\src\\mongodb4.js"
+            }
+        }
     }
 }
